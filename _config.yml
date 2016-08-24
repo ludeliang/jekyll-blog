@@ -3,10 +3,10 @@ highlighter: pygments
 logo: false                                                                                                                                           c-14
 paginate: 15
 baseurl: ""
-domain_name: 'http://jekyll-demo.coding.io'
-baseurl: "/" # the subpath of your site, e.g. /blog/
+domain_name: 'https://ludeliang.github.io'
+baseurl: "/jekyll-blog" # the subpath of your site, e.g. /blog/
 # Details for the RSS feed generator
-url: "http://jekyll-demo.coding.io" # the base hostname & protocol for your site
+url: "https://ludeliang.github.io/jekyll-blog" # the base hostname & protocol for your site
 author:         'chenwj233'
 name:          '迷の博客'
 exclude: ['vendor', 'README.md', 'Gemfile', 'Gemfile.lock', 'config.ru', 'unicorn.rb', 'Procfile']
