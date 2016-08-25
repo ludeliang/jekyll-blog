@@ -4,7 +4,7 @@ logo: false                                                                     
 paginate: 15
 baseurl: ""
 domain_name: 'https://ludeliang.github.io'
-baseurl: "/solu" # the subpath of your site, e.g. /blog/
+baseurl: "/solu/" # the subpath of your site, e.g. /blog/
 # Details for the RSS feed generator
 url: "https://ludeliang.github.io/solu" # the base hostname & protocol for your site
 author:         'ludeliang'
