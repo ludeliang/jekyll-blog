@@ -2,7 +2,7 @@
 layout: post
 title:  "冒泡排序"
 date:   2016-08-25 10:06:00
-categories: JavaScript Bubble Sort
+categories: JavaScript Sort Bubble
 ---
 
 冒泡排序算法的运作如下：（从后往前）
