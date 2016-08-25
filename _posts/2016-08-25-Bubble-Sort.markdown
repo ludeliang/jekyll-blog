@@ -11,7 +11,7 @@ categories: JavaScript Bubble Sort
 针对所有的元素重复以上的步骤，除了最后一个。
 持续每次对越来越少的元素重复上面的步骤，直到没有任何一对数字需要比较:
 
-{% highlight ruby %}
+```javascript
 function bubbleSort(arr) {
     var i = arr.length, j;
     var tempExchangVal;
@@ -32,7 +32,7 @@ var arr = [3, 2, 4, 9, 1, 5, 7, 6, 8];
 var arrSorted = bubbleSort(arr);
 console.log(arrSorted);
 alert(arrSorted);
-{% endhighlight %}
+```
 
 更多内容请参见[百度百科][baidu-baike];
 
