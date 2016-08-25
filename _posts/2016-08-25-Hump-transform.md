@@ -29,6 +29,15 @@ function hump(str){
     return n.substr(1).toLocaleUpperCase();
   })
 }
-console.log( hump(s) ); // myNameIsLaolu
+console.log( hump(s) ); // "myNameIsLaolu"
 ```
+##### 反向还原
 
+```javascript
+var s = "myNameIsLaolu";
+function restore(str){
+  return str.replace(/[A-Z]/g,function(n){
+    return "-" + n.toLocaleLowerCase();
+  })
+}
+console.log( restore(s) ); // "my-name-is-laolu"
